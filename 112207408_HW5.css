@@ -1,0 +1,153 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eeede1;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1150px;
+}
+
+.main-container {
+  display: flex;
+  width: 900px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 330px;
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.photo-panel {
+  width: 100%;
+  height: 575px;
+  background-image: url("picture.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.text-content{
+   height: 575px;
+}
+
+.text-content h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.text-content h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.text-content p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.text-content img {
+  margin-top: 30px;
+  width: 200px;
+}
+
+.right-panel {
+  width: 70%;
+  padding: 20px;
+  justify-content: space-between; 
+  height: 1150px;
+  display: flex; 
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+
+.education-list li {
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 20px; 
+}
+
+.education-list .year {
+  font-weight: bold;
+  width: 100px; 
+  flex-shrink: 0;
+  margin-top: 20px; 
+}
+
+.homework-list {
+  list-style: none;
+  padding: 20;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+
+}
+.homework-list li {
+  margin-bottom: 70px;
+
+}
+
+.homework-list a, 
+.music-list p {
+  text-decoration: none;
+  color: black;
+}
+
+.homework-list a:hover, 
+.music-list p:hover {
+  color: #c4c1ab; 
+}
+
+.homework-title{
+  font-weight: bold;
+}
+
+
+.music-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.music-item {
+  text-align: center;
+  flex: 1 1 100px;
+  max-width: 50px;
+
+}
+.music-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+
+}
+
+h6{
+  text-decoration: none;
+  color: #bdb9b9; 
+  text-align: center; 
+  max-width: 70%; 
+  margin-left: 80px;
+
+}
